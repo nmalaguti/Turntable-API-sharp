@@ -1,0 +1,8 @@
+Files in this directory:
+
+Iron Python - http://ironpython.codeplex.com/releases/view/62475
+    IronPython.dll
+    Microsoft.Scripting.dll
+
+Json.NET - http://json.codeplex.com/releases/view/77129
+    Newtonsoft.Json.dll

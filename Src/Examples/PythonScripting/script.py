@@ -17,7 +17,6 @@ def vote(bot, e):
     bot.Vote(TurntableBot.VoteOptions.Up, callback)
 
 def callback(json):
-    print json["success"].ToString()
     if json["success"].ToString() == "True":
         print "Voted awesome"
     else:
