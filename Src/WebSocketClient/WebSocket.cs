@@ -58,7 +58,7 @@ namespace WebSocketClient
         }
 
         /// <summary>
-        /// Represents the method that will handle a WebSocket event that has event data
+        /// Represents the method that will handle a WebSocket event that has event data.
         /// </summary>
         /// <param name="sender">The WebSocket instance generating the event.</param>
         /// <param name="e">The <see cref="WebSocketClient.WebSocketEventArgs"/> instance containing the event data.</param>
