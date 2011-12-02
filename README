@@ -1,3 +1,7 @@
-Right now this is just a C# WebSocket implementation of the http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-10 draft spec.
+Contains a C# WebSocket implementation of the http://tools.ietf.org/html/draft-ietf-hybi-thewebsocketprotocol-10 draft spec.
 
 Requires http://json.codeplex.com/
+
+See Src/Examples for details about usage.
+
+If you install IronPython you can write bots in Python.
