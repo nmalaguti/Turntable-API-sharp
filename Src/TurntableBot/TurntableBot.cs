@@ -119,8 +119,6 @@ namespace TurntableBotSharp
 
             this.uri = ChatServers[this.HashMod(roomId ?? random.NextDouble().ToString(), ChatServers.Length)];
 
-            this.ConnectWebSocket();
-
             if (roomId != null)
             {
                 this.connectDelegate = delegate
@@ -132,6 +130,8 @@ namespace TurntableBotSharp
                     this.Send(json);
                 };
             }
+
+            this.ConnectWebSocket();
         }
 
         /// <summary>
@@ -961,7 +961,7 @@ namespace TurntableBotSharp
 
             Random random = new Random();
 
-            string vh = SHA1Hex(string.Format(CultureInfo.InvariantCulture, "{0}{1}{2}", this.RoomId, value, this.CurrentSongId));
+            string vh = SHA1Hex(string.Format(CultureInfo.InvariantCulture, "{0}{1}{2}", this.RoomId, value.ToString().ToLower(), this.CurrentSongId));
             string th = SHA1Hex(random.NextDouble().ToString());
             string ph = SHA1Hex(random.NextDouble().ToString());
 
@@ -1323,7 +1323,6 @@ namespace TurntableBotSharp
                             if (currentSong != null)
                             {
                                 this.CurrentSongId = (string)currentSong["_id"];
-                                this.OnNewSongStarted(json);
                             }
                         }
                     }
@@ -1337,6 +1336,7 @@ namespace TurntableBotSharp
                                 delegate(JObject delegateJson)
                             {
                                 this.OnRoomChanged(delegateJson);
+                                this.OnNewSongStarted(delegateJson);
                             });
                         }
                     }
@@ -1395,7 +1395,6 @@ namespace TurntableBotSharp
                         }
 
                         this.CurrentSongId = (string)json["room"]["metadata"]["current_song"]["_id"];
-
                         this.OnNewSongStarted(json);
                     }
                     else if (command.Equals("update_votes", StringComparison.OrdinalIgnoreCase))
