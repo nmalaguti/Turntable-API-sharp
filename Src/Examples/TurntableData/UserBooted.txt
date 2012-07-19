@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "userid": "4f919098eb35c17511000199",
+  "reason": "so i can get API logs...",
+  "command": "booted_user",
+  "modid": "4f4ce636a3f7512f70000fef",
+  "roomid": "4ede0e41a3f7512314001775"
+}

@@ -1,0 +1,97 @@
+{
+  "command": "nosong",
+  "roomid": "4f4d8e8aa3f7517d700009c5",
+  "room": {
+    "chatserver": [
+      "chat2.turntable.fm",
+      80
+    ],
+    "name": "while (iCode) { drop.Beatz; } //Infinite muzik",
+    "created": 1330482826.67,
+    "description": "//Any good muzik allowed\nif (PunkRawk || Industrial || EBM || Dubstep || Trance || Grindcore || Indie) { rockThe.FunkyBeatz(); }",
+    "shortcut": "while_icode_dropbeatz_infinite_muzik",
+    "name_lower": "while (icode) { drop.beatz; } //infinite muzik",
+    "stream_info": {
+      "start_time": 1342736565.1,
+      "first_seg_id": 1342736565,
+      "file": "4e9fadbf99968e215e0144d7"
+    },
+    "roomid": "4f4d8e8aa3f7517d700009c5",
+    "metadata": {
+      "songlog": [
+        {
+          "_id": "4de74b1b845daf725a000003",
+          "source": "mn",
+          "djid": "4f569e32a3f751581a009f39",
+          "score": 0.5,
+          "djname": "@TerrorBot",
+          "starttime": 1342613122.39,
+          "snaggable": true,
+          "metadata": {
+            "album": "The Downward Spiral: Deluxe Edition",
+            "labelid": 5,
+            "song": "Ruiner",
+            "coverart": "http://images.mndigital.com/albums/002/921/015/m.jpeg",
+            "artist": "Nine Inch Nails",
+            "explicit": true,
+            "label": "Interscope",
+            "length": 298,
+            "mnid": "2921027",
+            "genre": "Alternative/Indie",
+            "isrc": "USIR19400530"
+          }
+        },
+        {
+          "snaggable": true,
+          "source": "mn",
+          "djid": "4f4ce636a3f7512f70000fef",
+          "score": 0.5,
+          "djname": "@GodOfThisAge",
+          "starttime": 1342736565.08,
+          "_id": "4e9fadbf99968e215e0144d7",
+          "metadata": {
+            "album": "The Bree-Teenz",
+            "labelid": 5,
+            "song": "Reetu Inda House?",
+            "coverart": "http://images.mndigital.com/albums/057/911/199/m.jpeg",
+            "artist": "One Morning Left",
+            "length": 237,
+            "mnid": "57911211",
+            "genre": "Rock"
+          }
+        }
+      ],
+      "dj_full": false,
+      "djs": [],
+      "upvotes": 0,
+      "privacy": "public",
+      "max_djs": 5,
+      "downvotes": 0,
+      "random": 0.301993454194,
+      "userid": "4f4ce636a3f7512f70000fef",
+      "listeners": 2,
+      "featured": false,
+      "djcount": 0,
+      "max_size": 200,
+      "djthreshold": 0,
+      "moderator_id": [
+        "4f4ce636a3f7512f70000fef",
+        "4f4d1b27a3f751022c000156",
+        "4ede0c8ea3f7512314001770",
+        "4f4d26bda3f751021d0003b1",
+        "4f4d30c1a3f7510235000513",
+        "4f5638b4590ca246e80079bf",
+        "4f569e32a3f751581a009f39",
+        "4e38655ea3f7517831006256",
+        "4e1b3b20a3f75162fc04188a",
+        "4f811012aaa5cd33b4000048",
+        "4f91a12daaa5cd58250001ef"
+      ],
+      "genre": "Electronica/Dance",
+      "current_song": null,
+      "current_dj": null,
+      "votelog": []
+    }
+  },
+  "success": true
+}

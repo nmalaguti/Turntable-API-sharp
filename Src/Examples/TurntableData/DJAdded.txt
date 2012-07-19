@@ -1,0 +1,32 @@
+{
+  "command": "add_dj",
+  "roomid": "4ede0e41a3f7512314001775",
+  "user": [
+    {
+      "name": "@GodOfThisAge",
+      "created": 1330439734.31,
+      "laptop": "pc",
+      "laptop_version": null,
+      "userid": "4f4ce636a3f7512f70000fef",
+      "acl": 0,
+      "fans": 166,
+      "points": 24449,
+      "avatarid": 222
+    }
+  ],
+  "success": true,
+  "placements": [
+    {
+      "top": 217,
+      "angle": 72.3616423646,
+      "sticker_id": "4f86fd27e77989117e000000",
+      "left": 128
+    },
+    {
+      "top": 219,
+      "angle": -73.1469319414,
+      "sticker_id": "4f86fd27e77989117e000000",
+      "left": 192
+    }
+  ]
+}

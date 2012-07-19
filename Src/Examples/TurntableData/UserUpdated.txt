@@ -1,0 +1,6 @@
+{
+  "command": "update_user",
+  "userid": "50061307aaa5cd6ca600007f",
+  "name": "Xenochrist92",
+  "roomid": "4ede0e41a3f7512314001775"
+}

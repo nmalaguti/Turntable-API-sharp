@@ -1,0 +1,6 @@
+{
+  "command": "rem_moderator",
+  "userid": "4f569e32a3f751581a009f39",
+  "roomid": "4ffb148aeb35c125bd000209",
+  "success": true
+}

@@ -1,0 +1,18 @@
+{
+  "command": "update_votes",
+  "roomid": "4ede0e41a3f7512314001775",
+  "room": {
+    "metadata": {
+      "upvotes": 1,
+      "downvotes": 0,
+      "listeners": 10,
+      "votelog": [
+        [
+          "4f4d30c1a3f7510235000513",
+          "up"
+        ]
+      ]
+    }
+  },
+  "success": true
+}
